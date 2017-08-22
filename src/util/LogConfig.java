@@ -11,7 +11,7 @@ public class LogConfig {
             "ERROR=%error";
 
     static final String DATE_FORMAT = "HH:mm:ss";
-    static final String FULL_PATH = "../logs/xviewlog.%d{yyyy-MM-dd}.log";
+    static final String FULL_PATH = "../logs/xviewlog.%d{yyyy-MM-dd_HH}.log";
     static final String ROLLING_MODE = "true";
 
     public static LogProp getLog() {
