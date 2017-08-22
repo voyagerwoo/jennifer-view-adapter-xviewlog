@@ -1,0 +1,25 @@
+package util;
+
+import prop.LogProp;
+import com.jennifersoft.view.extension.util.PropertyUtil;
+
+public class LogConfig {
+    static final LogProp prop = new LogProp();
+    static final String PATTERN = "[%startTime, %endTime, %collectTime] Domain=%domainName(%domainId), Instance=%instanceName(%instanceId), " +
+            "TXID=%txid, Client IP=%clientIp, Client ID=%clientId, User ID=%userId, Response Time=%responseTime, " +
+            "Front-end Time=%frontendTime, SQL Time=%sqlTime, Fetch Time=%fetchTime, CPU Time=%cpuTime, External-call Time=%externalcallTime, " +
+            "ERROR=%error";
+
+    static final String DATE_FORMAT = "HH:mm:ss";
+    static final String FULL_PATH = "../logs/xviewlog.%d{yyyy-MM-dd}.log";
+    static final String ROLLING_MODE = "true";
+
+    public static LogProp getLog() {
+        prop.setPattern(PropertyUtil.getValue("xviewlog", "pattern", PATTERN));
+        prop.setDateFormat(PropertyUtil.getValue("xviewlog", "date_format", DATE_FORMAT));
+        prop.setFullPath(PropertyUtil.getValue("xviewlog", "full_path", FULL_PATH));
+        prop.setRollingMode(PropertyUtil.getValue("xviewlog", "rolling_mode", ROLLING_MODE));
+
+        return prop;
+    }
+}
