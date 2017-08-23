@@ -37,6 +37,7 @@ public class LogAdapter implements JenniferAdapter {
                 pattern = pattern.replaceFirst("%userId", "" + model.getUserId());
                 pattern = pattern.replaceFirst("%responseTime", "" + model.getResponseTime());
                 pattern = pattern.replaceFirst("%frontendTime", "" + model.getFrontendTime());
+                pattern = pattern.replaceFirst("%networkTime", "" + model.getNetworkTime());
                 pattern = pattern.replaceFirst("%sqlTime", "" + model.getSqlTime());
                 pattern = pattern.replaceFirst("%fetchTime", "" + model.getFetchTime());
                 pattern = pattern.replaceFirst("%cpuTime", "" + model.getCpuTime());
