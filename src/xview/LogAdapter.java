@@ -42,6 +42,7 @@ public class LogAdapter implements JenniferAdapter {
                 pattern = pattern.replaceFirst("%cpuTime", "" + model.getCpuTime());
                 pattern = pattern.replaceFirst("%externalcallTime", "" + model.getExternalcallTime());
                 pattern = pattern.replaceFirst("%error", "" + model.getErrorType());
+                pattern = pattern.replaceFirst("%application", "" + model.getApplicationName());
 
                 Logger.info(pattern);
             }

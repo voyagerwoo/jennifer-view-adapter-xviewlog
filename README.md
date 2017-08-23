@@ -16,7 +16,7 @@ Adapter options are shown in the table below.
 
 | Key           | Default Value |
 | ------------- |:-------------:|
-| pattern       | [%startTime, %endTime, %collectTime] Domain=%domainName(%domainId), Instance=%instanceName(%instanceId), TXID=%txid, Client IP=%clientIp, Client ID=%clientId, User ID=%userId, Response Time=%responseTime, Front-end Time=%frontendTime, SQL Time=%sqlTime, Fetch Time=%fetchTime, CPU Time=%cpuTime, External-call Time=%externalcallTime, ERROR=%error |
+| pattern       | [%startTime, %endTime, %collectTime] Domain=%domainName(%domainId), Instance=%instanceName(%instanceId), TXID=%txid, Client IP=%clientIp, Client ID=%clientId, User ID=%userId, Response Time=%responseTime, Front-end Time=%frontendTime, SQL Time=%sqlTime, Fetch Time=%fetchTime, CPU Time=%cpuTime, External-call Time=%externalcallTime, ERROR=%error, Application=%application |
 | date_format   | HH:mm:ss |
 | full_path | ../logs/xviewlog.%d{yyyy-MM-dd_HH}.log |
 | rolling_mode | true |
