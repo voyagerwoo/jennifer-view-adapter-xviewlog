@@ -23,7 +23,7 @@ Adapter options are shown in the table below.
 
 If there is no option, the default value of the table is applied. Here's how to add an option:
 
-
+![2018-04-24 3 37 41](https://user-images.githubusercontent.com/2681333/39170254-d239579a-47d5-11e8-9ba8-698d76abc594.png)
  
  
 ## Supported version
