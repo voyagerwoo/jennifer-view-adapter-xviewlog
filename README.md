@@ -9,6 +9,7 @@ Execute the following in the Jennifer management screen.
  5. Enter the adapter path directly or upload the file.
  6. Enter the class 'xview.LogAdapter'.
 
+![2018-04-24 3 37 41](https://user-images.githubusercontent.com/2681333/39170254-d239579a-47d5-11e8-9ba8-698d76abc594.png)
 
 ## How to use Options
 
@@ -23,8 +24,8 @@ Adapter options are shown in the table below.
 
 If there is no option, the default value of the table is applied. Here's how to add an option:
 
-![2018-04-24 3 37 41](https://user-images.githubusercontent.com/2681333/39170254-d239579a-47d5-11e8-9ba8-698d76abc594.png)
- 
+![2018-04-24 3 48 35](https://user-images.githubusercontent.com/2681333/39170599-1a3573a2-47d7-11e8-94b2-b790f8ed45af.png)
+![2018-04-24 3 48 58](https://user-images.githubusercontent.com/2681333/39170600-1a61e4aa-47d7-11e8-8080-308993cefbdb.png)
  
 ## Supported version
  
