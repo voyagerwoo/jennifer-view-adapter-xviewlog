@@ -7,6 +7,7 @@ import com.jennifersoft.view.adapter.util.LogUtil;
 import prop.LogProp;
 import util.LogConfig;
 import util.Logger;
+
 import java.text.SimpleDateFormat;
 
 public class LogAdapter implements JenniferAdapter {

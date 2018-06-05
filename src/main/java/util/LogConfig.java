@@ -1,7 +1,7 @@
 package util;
 
-import prop.LogProp;
 import com.jennifersoft.view.extension.util.PropertyUtil;
+import prop.LogProp;
 
 public class LogConfig {
     static final LogProp prop = new LogProp();
